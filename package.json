@@ -1,0 +1,30 @@
+{
+  "name": "software-sauna",
+  "version": "1.0.0",
+  "description": "Zadatak za prijamni",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "keywords": [
+    "software",
+    "sauna",
+    "test",
+    "ascii",
+    "task"
+  ],
+  "author": "Antun Nakić",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.5",
+    "babel-jest": "^27.0.2",
+    "jest": "^27.0.4"
+  }
+}
